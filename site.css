@@ -101,8 +101,9 @@ nav a:hover{
 }
 
 footer{
-    background: #d3d2d2;
-    padding: 40px 0;
+    background:#616161;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
 }
 
 .rodape{
@@ -132,8 +133,78 @@ footer{
 }
 
 .copyright{
+    background: #252525;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-size: 13px;
-    margin-top: 50px;
+    padding: 10px;
+    margin: 50px 0 0 0;
+}
+
+/* CSS do Contato */
+
+.form-orcamento{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 70%;
+    display: block;
+    vertical-align: baseline;
+    
+}
+
+.titulo-form{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+form label{
+    display: none;
+}
+
+form input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    background: #e4e4e4;
+    color: #616161;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.grupo{
+	width: 47%;
+	display: inline-block;
+    padding: 10px 0px;
+}
+
+#telefone{
+    margin: 0 0 0 10%;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    background: #e4e4e4;
+    color: #616161;
+    padding: 10px;
+    margin: 5px auto 20px auto;
+}
+
+.enviar{
+    display: block;
+    width: 20%;
+    padding: 15px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
 }
