@@ -9,14 +9,13 @@ header{
 
 .caixa{
     position: relative;
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
 }
 
 nav{
     position: absolute;
     top: 40px;
-    margin: 0 auto;
     right: 0;
 }
 
@@ -41,7 +40,7 @@ nav a:hover{
 
 .sobre-principal{
     margin: 0 auto;
-    width: 1280px;
+    width: 1080px;
 
 }
 
@@ -68,7 +67,7 @@ nav a:hover{
 
 .serviços-principal{
     margin: 0 auto 50px auto;
-    width: 1280px;
+    width: 1080px;
 }
 
 .serviços-titulo{
@@ -107,7 +106,7 @@ footer{
 }
 
 .rodape{
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -143,13 +142,12 @@ footer{
 
 /* CSS do Contato */
 
+
 .form-orcamento{
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1080px;
     width: 70%;
-    display: block;
-    vertical-align: baseline;
-    
+    display: block;    
 }
 
 .titulo-form{
@@ -176,13 +174,14 @@ form input{
 }
 
 .grupo{
-	width: 47%;
+    width: 48%;
 	display: inline-block;
     padding: 10px 0px;
+    
 }
 
 #telefone{
-    margin: 0 0 0 10%;
+    margin: 0 0 0 7.3%;
 }
 
 form textarea {
