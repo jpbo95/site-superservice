@@ -205,5 +205,10 @@ form textarea {
     font-weight: bold;
     font-size: 15px;
     border: none;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+.enviar:active{
+    transition: 1ms;
+    transform: scale(1.05);
 }
